@@ -1,0 +1,17 @@
+Package: ltxtab
+Type: Package
+Title: Export LaTeX Tables from R
+Version: 1.0.0
+Authors@R: person("Michael", "Hofmann", email = "michael.hofmann@posteo.de",
+  role = c("aut", "cre"))
+Description: This R package generates nicely formatted LaTeX tables from anything that looks like a data frame.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  tibble,
+  lmtest
+Suggests:
+  gdata
+RoxygenNote: 6.1.1
